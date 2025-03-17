@@ -1,0 +1,53 @@
+# Ignorar archivos generados por el IDE
+.vs/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.vscode/
+
+# Ignorar archivos de compilación y ejecución
+bin/
+obj/
+out/
+publish/
+appsettings.Development.json
+
+# Ignorar archivos de dependencias
+.nuget/
+packages/
+*.nupkg
+
+# Ignorar archivos de logs y temporales
+*.log
+*.tmp
+*.temp
+
+# Ignorar archivos de configuración local
+appsettings.local.json
+appsettings.private.json
+
+# Ignorar archivos de usuario específicos
+*.user.osx
+*.user.unix
+
+# Ignorar archivos de Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Ignorar archivos de pruebas
+TestResults/
+*.testlog
+
+# Ignorar archivos de Swagger (si no se desea versionar)
+swagger.json
+swagger.yaml
+
+# Ignorar archivos de Node.js (si usas frontend con Node.js)
+node_modules/
+npm-debug.log
+
+# Ignorar archivos de frontend (si usas frameworks como React, Angular, etc.)
+dist/
+build/
