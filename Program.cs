@@ -18,6 +18,7 @@ builder.Services.AddControllers();
 // Configurar Swagger/OpenAPI
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IArchivoService, ArchivoService>();
 
 var app = builder.Build();
 
