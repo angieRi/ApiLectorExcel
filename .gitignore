@@ -6,13 +6,13 @@
 *.userprefs
 *.vscode/
 
-# Ignorar archivos de compilación y ejecución
+# Ignorar archivos de compilaciï¿½n y ejecuciï¿½n
 bin/
 obj/
 out/
 publish/
 appsettings.Development.json
-
+appsettings.json
 # Ignorar archivos de dependencias
 .nuget/
 packages/
@@ -23,31 +23,10 @@ packages/
 *.tmp
 *.temp
 
-# Ignorar archivos de configuración local
+# Ignorar archivos de configuraciï¿½n local
 appsettings.local.json
 appsettings.private.json
-
-# Ignorar archivos de usuario específicos
-*.user.osx
-*.user.unix
-
-# Ignorar archivos de Docker
-Dockerfile
-docker-compose.yml
-.dockerignore
 
 # Ignorar archivos de pruebas
 TestResults/
 *.testlog
-
-# Ignorar archivos de Swagger (si no se desea versionar)
-swagger.json
-swagger.yaml
-
-# Ignorar archivos de Node.js (si usas frontend con Node.js)
-node_modules/
-npm-debug.log
-
-# Ignorar archivos de frontend (si usas frameworks como React, Angular, etc.)
-dist/
-build/
